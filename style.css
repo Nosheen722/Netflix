@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/9f3c8fd3-4adc-457c-b2c8-97df3ea06bde/PK-en-20240219-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+      background-repeat: no-repeat;  
+     background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+.main .box {
+    top: 0;
+    opacity: 0.69;
+    background-color: black;
+    width: 100%;
+    height: 644px;
+    position: absolute;
+}
+nav {
+    max-width: 60vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+
+}
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* font-family: "MartelSans-ExtraBold.ttf"; */
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0px 30px;
+
+}
+
+.hero> :nth-child(1){
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.separation {
+    /* padding: 0px 0px 0px 0px; */
+    height: 7px;
+    background-color: gray;
+    z-index: 20;
+    position: relative;
+    
+}
+.btn {
+    padding: 3px 8px;
+    background-color: rgba(129, 113, 113, 0.555);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    background-color: rgb(23, 23, 23);
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px; 
+    border-radius:5px;
+    font-size: 20px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    max-width: 70vw;
+}
+.secimage {
+    position: relative;
+}
+
+ .secimage img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimage video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+} 
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+/* .faqbox:hover {
+    background-color: #414141;
+    color: white;
+} */
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+ .faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+} 
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .question {
+    padding: 34px 0;
+}
+.footer a {
+    font-size: 14px;
+    color: white;
+    }
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+  
+}
+.footer-item{
+    display: flex;
+flex-direction: column;
+gap: 23px;
+}
+
+.question {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+  }
+  
+  .question-title p {
+    margin-bottom: 0;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-1);
+  }
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+  }
+  .question-btn:hover {
+    transform: rotate(90deg);
+  }
+  .question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .question-text p {
+    margin-bottom: 0;
+  }
+  /* hide text */
+  .question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
+@media screen and (max-width: 1000px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimage img {
+        width: 305px;
+    }
+
+    .secimage video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+         font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+}
+
+
+.footer a {
+font-size: 14px;
+color: white;
+}
+
+.footer-item {
+display: flex;
+flex-direction: column;
+gap: 23px;
+} 
+
